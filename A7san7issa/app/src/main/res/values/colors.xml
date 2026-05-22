@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#22C55E</color>
+    <color name="primary_dark">#16A34A</color>
+    <color name="primary_light">#86EFAC</color>
+    <color name="accent">#FBC02D</color>
+    <color name="secondary">#FBC02D</color>
+    <color name="background">#F1F8E9</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_text_primary">#E0E0E0</color>
+    <color name="dark_text_secondary">#9E9E9E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="error">#EF4444</color>
+
+    <!-- Ajout pour le FAB -->
+    <color name="colorPrimary">#22C55E</color>
+</resources>

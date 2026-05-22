@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Livre ouvert stylisé -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,3L1,9l11,6l9,-4.91V17h2V9L12,3zM12,12.5L3.73,8L12,3.5L20.27,8L12,12.5z"/>
+    <!-- Chapeau de diplôme -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,18c-0.28,0 -0.55,-0.06 -0.8,-0.17l-5.56,-2.42C5.24,15.88 5,15.47 5,15V12.5l7,4l7,-4V15c0,0.47 -0.24,0.88 -0.64,1.41l-5.56,2.42C12.55,17.94 12.28,18 12,18z"/>
+</vector>

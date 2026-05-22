@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home" android:title="Accueil" android:icon="@drawable/ic_home"/>
+        <item android:id="@+id/nav_documents" android:title="Documents" android:icon="@drawable/ic_documents"/>
+        <item android:id="@+id/nav_ai" android:title="Assistant IA" android:icon="@drawable/ic_ai"/>
+        <item android:id="@+id/nav_favorites" android:title="Favoris" android:icon="@drawable/ic_star"/>
+        <item android:id="@+id/nav_maps" android:title="Bibliothèques" android:icon="@drawable/ic_map"/>
+        <item android:id="@+id/nav_profile" android:title="Mon Profil" android:icon="@drawable/ic_person"/>
+    </group>
+</menu>

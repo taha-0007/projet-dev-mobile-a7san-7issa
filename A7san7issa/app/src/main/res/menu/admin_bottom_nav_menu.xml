@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_admin_docs" android:title="Docs" android:icon="@drawable/ic_documents"/>
+    <item android:id="@+id/nav_admin_users" android:title="Users" android:icon="@drawable/ic_users"/>
+    <item android:id="@+id/nav_admin_stats" android:title="Stats" android:icon="@drawable/ic_stats"/>
+    <item android:id="@+id/nav_home" android:title="Accueil" android:icon="@drawable/ic_home"/>
+</menu>

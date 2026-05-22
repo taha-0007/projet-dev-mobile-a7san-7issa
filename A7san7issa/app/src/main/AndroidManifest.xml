@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.a7san7issa">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-sdk tools:overrideLibrary="com.google.firebase.auth" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.A7san7issa"
+        android:usesCleartextTraffic="true">
+
+        <!-- Clé Google Maps (Android) en dur -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCedyND3YzvUtGdIy7q9iQx7gxRA9g7OWs"/>
+
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.A7san7issa">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:theme="@style/Theme.A7san7issa"/>
+        <activity android:name=".ui.admin.AdminMainActivity"
+            android:theme="@style/Theme.A7san7issa"/>
+        <activity android:name=".ui.admin.AddDocumentActivity"
+            android:theme="@style/Theme.A7san7issa"/>
+        <activity android:name=".ui.admin.DocumentUpdateActivity"
+            android:theme="@style/Theme.A7san7issa"/>
+        <activity android:name=".ui.main.MapsActivity"
+            android:theme="@style/Theme.A7san7issa"/>
+        <activity android:name=".ui.auth.SignupActivity"
+            android:theme="@style/Theme.A7san7issa"/>
+        <activity android:name=".ui.main.MainActivity"
+            android:theme="@style/Theme.A7san7issa"/>
+        <activity android:name=".ui.document.PdfViewerActivity"
+            android:theme="@style/Theme.A7san7issa"/>
+
+
+
+    </application>
+</manifest>

@@ -1,0 +1,15 @@
+// Top-level build file
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Plugin Google Services (nécessaire pour Firebase)
+        classpath 'com.google.gms:google-services:4.4.1'
+    }
+}
+
+plugins {
+    alias(libs.plugins.android.application) apply false
+}

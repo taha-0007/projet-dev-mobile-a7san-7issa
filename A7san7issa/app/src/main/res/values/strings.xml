@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">A7san 7issa</string>
+    <string name="choose_filiere">Choisir une filière</string>
+    <string name="choose_langue">Choisir une langue</string>
+    <string name="open_drawer">Ouvrir le menu</string>
+    <string name="close_drawer">Fermer le menu</string>
+
+    <!-- Nouvelles chaînes -->
+    <string name="greeting">Bonjour</string>
+    <string name="avatar">Photo de profil</string>
+    <string name="search">Rechercher</string>
+    <string name="autofill_search">Rechercher un cours</string>
+    <string name="micro">Recherche vocale</string>
+    <string name="documents">Documents</string>
+    <string name="ai_assistant">Assistant IA</string>
+    <string name="default_web_client_id">VOTRE_CLIENT_ID_WEB.apps.googleusercontent.com</string>
+</resources>
